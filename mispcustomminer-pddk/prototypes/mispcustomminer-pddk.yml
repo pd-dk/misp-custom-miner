@@ -1,11 +1,11 @@
-url: https://github.com/pd-dk/misp-custom-miner
+url: https://github.com/pd-dk/misp-custom-miner-pddk
 description: >
   Custom extension for MineMeld.
 
 prototypes:
   MISPMiner:
     author: pd-dk
-    class:  mispcustomminer.MISPMiner
+    class:  mispcustomminer-pddk.MISPMiner
     development_status: EXPERIMENTAL
     node_type: miner
     indicator_types:
@@ -14,7 +14,7 @@ prototypes:
       - extension
       - misp
     description: >
-      test prototype for mispcustomminer.MISPMiner
+      test prototype for mispcustomminer-ppdk.MISPMiner
     config:
       verify_cert: False
       misp_url: '<give valid misp url here>'
