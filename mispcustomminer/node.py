@@ -98,6 +98,7 @@ class MISPMiner(BasePollerFT):
             if _indicator is not None:
                 indicator = _indicator.expand(self.indicator_transform)
                 
+        LOG.debug('%s - is being processed', str(indicator))
         return [[indicator, value]]
 
     def _build_iterator(self, now):
