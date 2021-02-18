@@ -5,7 +5,7 @@ description: >
 prototypes:
   MISPMiner:
     author: pd-dk
-    class:  mispcustomminer-pddk.MISPMiner
+    class:  mispcustomminerpddk.MISPMiner
     development_status: EXPERIMENTAL
     node_type: miner
     indicator_types:
@@ -14,7 +14,7 @@ prototypes:
       - extension
       - misp
     description: >
-      test prototype for mispcustomminer-ppdk.MISPMiner
+      test prototype for mispcustomminerppdk.MISPMiner
     config:
       verify_cert: False
       misp_url: '<give valid misp url here>'
