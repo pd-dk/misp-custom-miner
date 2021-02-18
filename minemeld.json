@@ -4,7 +4,7 @@
     "author": "pd-dk",
     "author_email": "pddk@onet.eu",
     "description": "Custom minemeld miner for extracting tagged attributes from MISP",
-    "url": "https://github.com/pd-dk/misp-custom-miner",
+    "url": "https://github.com/pd-dk/misp-custom-miner-pddk",
     "entry_points": {
         "minemeld_nodes": {
             "mispcustomminer.MISPMiner": "mispcustomminer.node:MISPMiner"
