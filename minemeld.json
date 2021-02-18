@@ -7,10 +7,10 @@
     "url": "https://github.com/pd-dk/misp-custom-miner-pddk",
     "entry_points": {
         "minemeld_nodes": {
-            "mispcustomminer-pddk.MISPMiner": "mispcustomminer-pddk.node:MISPMiner"
+            "mispcustomminerpddk.MISPMiner": "mispcustomminerpddk.node:MISPMiner"
         },
         "minemeld_prototypes": {
-            "mispcustomminer-pddk.prototypes": "mispcustomminer-pddk:prototypes"
+            "mispcustomminerpddk.prototypes": "mispcustomminerpddk:prototypes"
         }
     },
     "manifest_version": 0
